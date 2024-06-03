@@ -1,0 +1,11 @@
+.button{
+  margin: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  transition: .2s;
+  cursor: pointer;
+  &:hover {
+    background: teal;
+  }
+}

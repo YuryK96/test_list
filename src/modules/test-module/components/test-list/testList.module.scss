@@ -1,0 +1,39 @@
+
+
+.testList{
+  .wrapper{
+    cursor: pointer;
+    margin: 5px;
+    border: 1px solid gray;
+    transition: .2s;
+    div {
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      height: 80px;
+
+      input {
+        width: 40%;
+      }
+
+    }
+    &:hover {
+      background: #d5d5d5;
+    }
+  }
+
+  .editMode{
+    border: 1px solid black;
+    margin: 20px 0;
+
+    div {
+      display: flex;
+      flex-direction: column;
+
+      textarea, input {
+        margin: 10px auto;
+        width: 80%;
+      }
+    }
+  }
+}
